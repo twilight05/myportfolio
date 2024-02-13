@@ -1,124 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Anne's Portfolio</title>
-        <link rel="shortcut icon" href="./images/portfolio logo.png" type="image/x-icon">
-        <script src="https://kit.fontawesome.com/bc127307d9.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        
-        <header>
-            <div id="brand">
-                <img src="./images/portfolio logo.png" alt="brand logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anne's Portfolio</title>
+    <link
+      rel="shortcut icon"
+      href="./images/portfolio logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/bc127307d9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <div id="brand">
+        <img src="./images/portfolio logo.png" alt="brand logo" />
+      </div>
+      <nav id="navbar">
+        <ul>
+          <li class="navItem"><a href="#home">Home</a></li>
+          <li class="navItem"><a href="#services">Services</a></li>
+          <li class="navItem"><a href="#about">About</a></li>
+          <li class="navItem"><a href="#skills">Skills</a></li>
+          <li class="navItem"><a href="#portfolio">Portfolio</a></li>
+          <li class="navItem"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- home section  -->
+      <section id="home" class="horizontal">
+        <div class="leftCon">
+          
+          <div id="socialicon">
+            <div class="icon">
+              <a href=""><i class="fab fa-facebook"></i></a>
             </div>
-            <nav id="navbar">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>   
-        
-        <main>
-            <!-- home section  -->
-            <section>
-                <div >
-                    <div>
-                        <a href=""><i class="fab fa-facebook"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-pinterest"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-whatsapp"></i></a>
-                    </div>
-                        <div>
-                            <h1>I am Anne Usoroh</h1>
-                            <p>I'm Anne, a beginner web developer, actively learning how to build responsive web applications.</p>
-                        </div>
-                        <div>
-                            <a href="#portfolio"><button type="menu"> My Portfolio</button></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                        </div> <br>
-                        <div>
-                            <img src="./images/WhatsApp Image 2024-01-30 at 2.27.08 PM.jpeg" alt="My Picture"> <br><br>
-                        </div>
-                    
-                </div>
-            </section>
-            
+            <div class="icon">
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="icon">
+              <a href=""><i class="fab fa-pinterest"></i></a>
+            </div>
+            <div class="icon">
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="icon">
+              <a href=""><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
 
-            <!-- services section  -->
-            <section id="services">
-                <div>
-                    <h5>SERVICES</h5>
-                    <h2>My Services</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, id rem fuga ab deserunt similique placeat, mollitia, neque natus fugiat aspernatur? Vero, iure? Delectus, officiis? Ipsam autem pariatur nobis ex!</p>
-                </div>
-                <div>
-                    <h3>Web Development</h3>
-                    <i class="fab fa-github"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vel at totam illo ipsum fugiat nulla aspernatur qui inventore sit!</p>
-                </div>
-                <div>
-                    <h3>Web Design</h3>
-                    <i class="fab fa-react"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consectetur amet adipisci et aspernatur, nostrum molestiae porro ullam sequi perferendis.</p>
-                </div>
-                <div>
-                    <h3>Video Editing</h3>
-                    <i class="fa fa-video"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nihil placeat a quisquam, laudantium nesciunt corrupti nobis quidem ullam beatae?</p>
-                </div>
-                <div>
-                    <h3>Photography</h3>
-                    <i class="fa fa-camera-retro"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tempore illo dolore, quia excepturi totam atque nobis veniam tempora repudiandae.</p>
-                </div>
-                <div>
-                    <h3>App Development</h3>
-                    <i class="fab fa-apple"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit beatae asperiores accusantium distinctio optio delectus placeat est quia impedit temporibus!</p>
-                </div>
-                <div>
-                    <h3>SEO Expert</h3>
-                    <i class="fab fa-wikipedia-w"></i>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum pariatur culpa modi iure nam accusantium minus consequuntur velit ea numquam.</p>
-                </div>
-            </section>
+          <div id="info">
+            <h1>I am Anne Usoroh</h1>
+            <p id="subinfo">
+              I'm Anne, a beginner web developer, actively learning how to build
+              responsive web applications.
+            </p>
+          </div>
+          <div id="buttons">
+            <button>Portfolio</button>
+            <button><i class="fab fa-youtube"></i></button>
+          </div>
+        </div>
+        <div class="rightCon">
+          <img class="pic"src="./images/_MG_9151-1-removebg.png" alt="My Picture" />
+          <br /><br />
+        </div>
+      </section>
 
-            <!-- about section  -->
-            <section id="about"></section>
+      <!-- services section  -->
+      <section id="service">
+        <div id="myservices">
+          <h5>SERVICES</h5>
+          <h2>My Services</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Asperiores, id rem fuga ab deserunt similique placeat, mollitia,
+            neque natus fugiat aspernatur? Vero, iure? Delectus, officiis? Ipsam
+            autem pariatur nobis ex!
+          </p>
+        </div>
+        <div id="card">
+          <div>
+            <h3>Web Development</h3>
+            <i class="fab fa-github"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vel
+              at totam illo ipsum fugiat nulla aspernatur qui inventore sit!
+            </p>
+          </div>
+          <div>
+            <h3>Web Design</h3>
+            <i class="fab fa-react"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              consectetur amet adipisci et aspernatur, nostrum molestiae porro
+              ullam sequi perferendis.
+            </p>
+          </div>
+          <div>
+            <h3>Video Editing</h3>
+            <i class="fa fa-video"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              nihil placeat a quisquam, laudantium nesciunt corrupti nobis
+              quidem ullam beatae?
+            </p>
+          </div>
+          <div>
+            <h3>Photography</h3>
+            <i class="fa fa-camera-retro"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+              tempore illo dolore, quia excepturi totam atque nobis veniam
+              tempora repudiandae.
+            </p>
+          </div>
+          <div>
+            <h3>App Development</h3>
+            <i class="fab fa-apple"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              beatae asperiores accusantium distinctio optio delectus placeat
+              est quia impedit temporibus!
+            </p>
+          </div>
+          <div>
+            <h3>SEO Expert</h3>
+            <i class="fab fa-wikipedia-w"></i>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+              pariatur culpa modi iure nam accusantium minus consequuntur velit
+              ea numquam.
+            </p>
+          </div>
+        </div>
+      </section>
 
-            <!-- skills section  -->
-            <section id="skills"></section>
-            
-            <!-- portfolio section  -->
-            <section id="portfolio"></section>
+      <!-- about section  -->
+      <section id="about">
+        <div id="up">
+          <h2>About</h2>
+          <h5><a href="#./index.html">Home</a>>>About</h5>
+        </div>
+        <div id="side">
+          <img
+            src="./images/WhatsApp_Image_2024-01-30_at_2.27.08_PM-removebg-preview.png"
+            alt="second potrait"
+          />
+        </div>
+        <div>
+          <h3 class="whitetext">Hi There</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui fugit
+            aliquam temporibus voluptate, ullam, animi nobis aperiam nisi ut
+            itaque accusamus, ipsa nihil asperiores obcaecati similique dolore
+            corporis nesciunt ducimus perferendis fuga. Autem magnam laboriosam
+            animi asperiores omnis temporibus at.
+          </p>
+        </div>
+        <div>
+          <h5>Name:</h5>
+          <p>Anne Usoroh</p>
+          <h5>Phone:</h5>
+          <p>+234 810277 2398</p>
+          <h5>Email:</h5>
+          <p>annenorahusoroh@gmail.com</p>
+          <h5>LinkedIn</h5>
+          <p>Anne Usoroh</p>
+        </div>
+      </section>
 
-            <!-- contact section  -->
-            <section id="contact">
-                <form action="" method="">
-                    <label for="Firstname">First Name:</label><br>
-                    <input type="text" placeholder="First Name" id="firstname">
-                    <br> <br>
-                    <input type="text" placeholder="Last Name" id="lastname">
-                    <br><br>
-                    <input type="email" placeholder="Email" id="email" required>
-                    <br><br>
-                    <input type="tel" placeholder="Phone Number" id="phonenumber">
-                    <br><br>
-                    <input type="Submit" value="Submit">
+      <!-- skills section -->
+      <section id="skills">
+        <div id="rightside">
+          <div id="expert">
+            <h5>I'M EXPERT ON</h5>
+            <h2>Let's Work Together</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde
+              repellat sequi error minima nobis ea architecto possimus in!
+              Ipsum, harum mollitia perspiciatis maiores recusandae accusantium
+              ullam unde officia odit numquam illum tempora consequatur,
+              aperiam, atque vitae! Mollitia porro officia nostrum.
+            </p>
+          </div>
+          <div>
+            <button>Hire Me Now</button>
+          </div>
+        </div>
+        <div id="leftside">
+          <h6>Node Js</h6>
+          <h6>Python</h6>
+          <h6>Laravel</h6>
+          <h6>SEO</h6>
+        </div>
+      </section>
 
-                </form>
-            </section>
-        </main>
+      <!-- portfolio section  -->
+      <section id="portfolio">
+        <div id="upper">
+          <div>
+            <h2>Portfolio</h2>
+            <h5><a href="./index.html">Home</a>>>Portfolio</h5>
+          </div>
+          <div id="portfolioshowcase">
+            <h2>Portfolio Showcase</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+              nam deleniti aperiam minus accusantium reprehenderit sequi quia
+              voluptatem reiciendis ut.
+            </p>
+          </div>
+        </div>
 
-        
-        <footer></footer>
-    </body>
+        <div id="lower">
+          <div>
+            <i class="fa fa-users"></i>
+            <h4>47</h4>
+            <h4>Clients</h4>
+          </div>
+          <div>
+            <i class="fab fa-react"></i>
+            <h4>120</h4>
+            <h4>Projects</h4>
+          </div>
+          <div>
+            <i class="fa fa-gem"></i>
+            <h4>12</h4>
+            <h4>Awards</h4>
+          </div>
+          <div>
+            <i class="fa fa-github"></i>
+            <h4>5</h4>
+            <h4>Years Experience</h4>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section  -->
+      <section id="contact">
+        <div id="part1">
+          <h2>Contact</h2>
+          <h5><a href="./index.html">Home</a>>>Contact</h5>
+        </div>
+
+        <div id="part2">
+          <div>
+            <i class="fa fa-location-crosshairs"></i>
+            <h5>Locate Us</h5>
+            <h5>DH Street,Lagos</h5>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <h5>Give us a call</h5>
+            <h5>Office: +234 810 277 2398</h5>
+          </div>
+          <div>
+            <i class="fa fa-envelope"></i>
+            <h5>Get in online</h5>
+            <h5>annenorahusoroh@gmail.com</h5>
+          </div>
+        </div>
+        <form action="" method="">
+          <input type="text" placeholder="Your Name" id="yourname" />
+          <br /><br />
+          <input type="text" placeholder="Your Subject" id="subject" />
+          <br /><br />
+          <input type="email" placeholder="Your Email" id="email" required />
+          <br /><br />
+          <input type="text" placeholder="Your message" id="your message" />
+          <br /><br />
+          <input type="Submit" value="Send Message" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <img src="./images/portfolio logo.png" alt="brand logo" />
+      </div>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores iure
+          dolorum officia dicta libero saepe, voluptate deserunt sequi suscipit
+          ratione mollitia alias, animi inventore quaerat autem at! Reiciendis,
+          omnis voluptatibus.
+        </p>
+      </div>
+      <div>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fab fa-pinterest"></i>
+      </div>
+      <div>
+        <h5>Copyright 2024 Ami.ke All Rights Reserved By Themebing</h5>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+ 
+}
+
+
+#header {
+  background-color: #1f2235;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+    
+}
+
+#navbar > ul {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+}
+
+.navItem a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 30px;
+  font-size: 18px;
+}
+
+.navItem a:hover {
+  color: #ff4a47;
+}
+
+#brand img {
+  width: 100px;
+}
+
+.pic {
+  max-width: 100%;
+}
+
+#home {
+  background-color: #24263b;
+  display: flex;
+  justify-content: space-between;
+  padding:30px ;
+  
+}
+
+#socialicon {
+  list-style: none;
+  display: flex; 
+  padding-top: 100px;
+  margin-left: 100px;
+  margin-right: 0px;
+  text-decoration: none;
+  font-size: medium;
+}
+#info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 130px;
+  padding-bottom: 10px;
+}
+
+#subinfo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#buttons {
+  display: flex;
+  margin-left: 130px;
+}
+.icon a {
+  color: #fff;
+  justify-content: space-between;
+  display: flex;
+  padding: 30px;
+  text-align: center;
+  list-style: none;
+}
+
+.icon a:hover {
+  color: #ff4a47;
+}
+
+#service {
+    background-color: #1F2235;
+
+}
+
+#myservices {
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    
+}
+
+.justify {
+    text-align: center;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: #fff;
+}
