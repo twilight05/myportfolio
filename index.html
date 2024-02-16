@@ -16,9 +16,13 @@
     ></script>
   </head>
   <body>
-    <header id="header">
+    <header class="horizontal">
       <div id="brand">
-        <img src="./images/portfolio logo.png" alt="brand logo" />
+        <img
+          src="./images/portfolio logo.png"
+          alt="brand logo"
+          class="brands"
+        />
       </div>
       <nav id="navbar">
         <ul>
@@ -34,9 +38,8 @@
 
     <main>
       <!-- home section  -->
-      <section id="home" class="horizontal">
+      <section id="home">
         <div class="leftCon">
-          
           <div id="socialicon">
             <div class="icon">
               <a href=""><i class="fab fa-facebook"></i></a>
@@ -57,18 +60,28 @@
 
           <div id="info">
             <h1>I am Anne Usoroh</h1>
-            <p id="subinfo">
+            <p>
               I'm Anne, a beginner web developer, actively learning how to build
               responsive web applications.
             </p>
+
+            <div>
+              <button>Portfolio</button>
+              <button><i class="fab fa-youtube"></i></button>
+            </div>
           </div>
-          <div id="buttons">
+          <!-- <div>
             <button>Portfolio</button>
             <button><i class="fab fa-youtube"></i></button>
-          </div>
+          </div> -->
         </div>
+
         <div class="rightCon">
-          <img class="pic"src="./images/_MG_9151-1-removebg.png" alt="My Picture" />
+          <img
+            class="pic"
+            src="./images/_MG_9151-1-removebg.png"
+            alt="My Picture"
+          />
           <br /><br />
         </div>
       </section>
@@ -85,54 +98,56 @@
             autem pariatur nobis ex!
           </p>
         </div>
-        <div id="card">
-          <div>
-            <h3>Web Development</h3>
+        <div id="grid">
+          <div class="card">
             <i class="fab fa-github"></i>
+            <h3>Web Development</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vel
               at totam illo ipsum fugiat nulla aspernatur qui inventore sit!
             </p>
           </div>
-          <div>
-            <h3>Web Design</h3>
+
+          <div class="card">
             <i class="fab fa-react"></i>
+            <h3>Web Design</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
               consectetur amet adipisci et aspernatur, nostrum molestiae porro
               ullam sequi perferendis.
             </p>
           </div>
-          <div>
-            <h3>Video Editing</h3>
+          <div class="card">
             <i class="fa fa-video"></i>
+            <h3>Video Editing</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
               nihil placeat a quisquam, laudantium nesciunt corrupti nobis
               quidem ullam beatae?
             </p>
           </div>
-          <div>
-            <h3>Photography</h3>
+
+          <div class="card">
             <i class="fa fa-camera-retro"></i>
+            <h3>Photography</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
               tempore illo dolore, quia excepturi totam atque nobis veniam
               tempora repudiandae.
             </p>
           </div>
-          <div>
-            <h3>App Development</h3>
+          <div class="card">
             <i class="fab fa-apple"></i>
+            <h3>App Development</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
               beatae asperiores accusantium distinctio optio delectus placeat
               est quia impedit temporibus!
             </p>
           </div>
-          <div>
-            <h3>SEO Expert</h3>
+          <div class="card">
             <i class="fab fa-wikipedia-w"></i>
+            <h3>SEO Expert</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
               pariatur culpa modi iure nam accusantium minus consequuntur velit
